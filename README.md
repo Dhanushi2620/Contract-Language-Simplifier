@@ -21,9 +21,6 @@ Built using **Streamlit**, **Hugging Face Transformers**, and **OpenAI API**, th
 - Side-by-side comparison of original vs. simplified text
 - Adjustable simplification levels — *Basic*, *Intermediate*, and *Advanced*
 
-### 📚 Legal Term Glossary
-- Built-in glossary explaining key legal terms such as “Agreement”, “Liability”, “Obligation”, etc.
-
 ### 🖥️ Admin Dashboard
 - Monitor simplification requests, user activity, and system performance
 - Manage glossary or review AI outputs (future-ready)
