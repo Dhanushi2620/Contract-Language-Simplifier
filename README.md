@@ -53,10 +53,57 @@ Built using **Streamlit**, **Hugging Face Transformers**, and **OpenAI API**, th
 ```bash
 git clone https://github.com/your-username/contract-language-simplifier.git
 cd contract-language-simplifier
-
-2️⃣ Create and Activate Virtual Environment
-
+```
+### 2️⃣ Create and Activate Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate     # (Windows)
 # or
 source venv/bin/activate  # (Mac/Linux)
+
+```
+### 3️⃣ Install Dependencies
+```bash 
+pip install -r requirements.txt
+
+```
+### 4️⃣ Set up OpenAI API Key
+```bash 
+Create a .streamlit/secrets.toml file in your project directory and add the following:
+
+OPENAI_API_KEY = "your-api-key-here"
+```
+### 5️⃣ Run the Application
+```bash 
+streamlit run app.py
+
+```
+# 📊 Project Milestones
+
+Milestone 1: User Authentication (Login, Signup, JWT-based Security)
+
+Milestone 2: Text Analysis and Readability Metrics Integration
+
+Milestone 3: Contract Simplification with AI-Powered Text Generation
+
+Milestone 4: Multi-Level Simplification and Admin Dashboard
+
+
+# 🔮 Future Enhancements
+
+Dynamic glossary generation using AI
+
+Real-time feedback and rating system
+
+Integration with document management APIs (Google Drive, DocuSign)
+
+Fine-tuning model on Indian legal datasets
+
+Cloud-based user analytics dashboard
+
+# 👩‍💻 Developer
+
+Dhanushi Gupta
+B.Tech (CSE) | Machine Learning & AI Enthusiast
+📧 [dhanushi.ug23@nsut.ac.in
+]
