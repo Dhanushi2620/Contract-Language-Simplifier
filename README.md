@@ -1,38 +1,55 @@
-# Contract Language Simplifier — Milestone 1 (Streamlit)
+# 📄 Contract Language Simplifier (CLS)
 
-This starter delivers Weeks 1–2:
-- Sign Up / Sign In (JWT)
-- Profile + Change Password
-- Document paste/upload and save
-- SQLite persistence
+An AI-powered web application that simplifies complex legal or contract language into clear, easy-to-understand text.  
+Built using **Streamlit**, **Hugging Face Transformers**, and **OpenAI API**, the system performs **text simplification, summarization, and readability analysis**.
 
-## Quickstart
+---
 
+## 🚀 Features
+
+### 🔐 User Authentication
+- Secure sign-up, sign-in, and password recovery (JWT + bcrypt encryption)
+- User-specific session management with SQLite backend
+
+### 🧠 Text Analysis
+- Upload contracts in **PDF, DOCX, or TXT** format
+- Calculates readability metrics: *Flesch-Kincaid Grade* & *Gunning Fog Index*
+- Generates top keywords and complexity analysis
+
+### ✍️ Simplification & Summarization
+- AI-based simplification using **FLAN-T5** and **BART** models
+- Side-by-side comparison of original vs. simplified text
+- Adjustable simplification levels — *Basic*, *Intermediate*, and *Advanced*
+
+### 📚 Legal Term Glossary
+- Built-in glossary explaining key legal terms such as “Agreement”, “Liability”, “Obligation”, etc.
+
+### 🖥️ Admin Dashboard
+- Monitor simplification requests, user activity, and system performance
+- Manage glossary or review AI outputs (future-ready)
+
+### ☁️ Deployment Ready
+- Fully containerized for deployment using **Streamlit Cloud**, **Hugging Face Spaces**, or **Docker**
+
+---
+
+## 🧩 Tech Stack
+
+| Component | Technology |
+|------------|-------------|
+| **Frontend / UI** | Streamlit |
+| **Backend** | Python |
+| **Database** | SQLite |
+| **AI / NLP Models** | FLAN-T5, BART-large-cnn |
+| **Authentication** | JWT, bcrypt |
+| **Environment Management** | venv |
+| **Styling** | Custom CSS (modern, minimalist white-blue theme) |
+
+---
+
+## 🧰 Installation & Setup
+
+### 1️⃣ Clone the Repository
 ```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# macOS/Linux
-# source venv/bin/activate
-
-pip install -r requirements.txt
-
-# set env
-copy .env.example .env   # Windows PowerShell: copy .env.example .env
-# macOS/Linux: cp .env.example .env
-# open .env and put a long random JWT secret
-
-streamlit run app.py
-```
-
-Open http://localhost:8501
-
-## Generate a strong secret
-```bash
-python -c "import secrets; print(secrets.token_urlsafe(64))"
-```
-
-## Notes
-- DB file: `cls_app.db`
-- To reset: delete `cls_app.db` (you will lose users and docs)
-- Do not commit `.env` or `cls_app.db` to public repos
+git clone https://github.com/your-username/contract-language-simplifier.git
+cd contract-language-simplifier
