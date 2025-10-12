@@ -53,3 +53,10 @@ Built using **Streamlit**, **Hugging Face Transformers**, and **OpenAI API**, th
 ```bash
 git clone https://github.com/your-username/contract-language-simplifier.git
 cd contract-language-simplifier
+
+2️⃣ Create and Activate Virtual Environment
+
+python -m venv venv
+venv\Scripts\activate     # (Windows)
+# or
+source venv/bin/activate  # (Mac/Linux)
