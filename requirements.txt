@@ -3,8 +3,9 @@ passlib==1.7.4
 python-dotenv==1.0.1
 PyPDF2==3.0.1
 docx2txt==0.8
-transformers==4.44.2
-torch>=2.1.0
+transformers>=4.42.0
+torch
+sentencepiece
 pandas==2.2.2
 openai==1.35.3
 scikit-learn==1.4.2
