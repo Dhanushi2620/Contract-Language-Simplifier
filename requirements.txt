@@ -10,3 +10,7 @@ openai==1.35.3
 scikit-learn==1.4.2
 textstat==0.7.3
 spacy==3.7.2
+nltk>=3.9.1
+regex
+tqdm
+joblib
