@@ -1,31 +1,9 @@
-# Core Framework
 streamlit==1.38.0
-
-# Authentication & Environment
 passlib==1.7.4
 python-dotenv==1.0.1
-
-# File Handling
 PyPDF2==3.0.1
 docx2txt==0.8
-
-# NLP and AI Models
-transformers==4.43.3
-torch==2.2.2
-spacy==3.7.2
-textstat==0.7.3
-
-# Data Handling
+transformers==4.44.2
+torch==2.2.0
 pandas==2.2.2
-numpy==1.26.4
-
-# OpenAI Integration
-openai==1.35.10
-
-# Utility Libraries
-regex==2024.5.15
-requests==2.32.3
-tqdm==4.66.5
-
-# Compatibility
-protobuf==4.25.3
+nltk==3.8.1
