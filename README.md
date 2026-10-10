@@ -101,11 +101,4 @@ Cloud-based user analytics dashboard
 # 👩‍💻 Developer
 
 Dhanushi Gupta
-B.Tech (CSE) | Machine Learning & AI Enthusiast
-📧 [dhanushi.ug23@nsut.ac.in
-]
 
-Arnav Gupta
-B.Tech (CSE) | AI Enthusiast
-📧 [2k22.csiot.2212865@gmail.com
-]
